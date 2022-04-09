@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    border: 1px solid black;
+    width: 600px;
+    margin: 20px;
+}
+img {
+    width: 100%;
+}
+h2, p {
+    padding: 10px;
+}
+.xam_sua {
+    background-color: grey;
+    color: burlywood;
+}

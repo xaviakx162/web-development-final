@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.red {
+    color: red;
+}
+.yellow {
+    color: yellow;
+    font-size:x-small;
+}
+.black {
+    color: black;
+}
+.container {
+    border: 5px grey;
+    display: flex;
+    background-color: grey;
+    height: 400px;
+    width: 1300px;
+    justify-content: center;
+}
+.city {
+    color: black;
+}
+.box {
+    border: 1px solid gray ;
+    width: 200px;
+    height: 350px;
+    margin: 5px;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 3px 4px 3px 0px rgb(88,48,88);
+    border-radius: 5px;
+}
+.box p {
+    margin: 10px;
+}
+.box h4 {
+    margin: 10px;
+}
+.city {
+    margin-left: 32px;
+}
+.hncity {
+    color: black;
+    margin-left: 55px;
+}

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wellcome {
+    background-color: black;
+    height:15px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+
+}
+h6 a{
+    text-decoration: none;
+    color: white;
+
+}
+.menu{
+    display: flex;
+    font-size: small;
+    margin-top: -75px;
+    border-bottom: 1px solid black;
+    height: 50px;
+    position: fixed;
+    background-color: white;
+}
+
+.menu a {
+    margin-top: 6px;
+    margin-left:60px;
+    text-decoration: none;
+    color: black;
+
+}
+.menu a:hover {text-decoration: underline;}
+.main {
+    margin-top: 18px;
+}
+.mini {
+    margin-top: 18px;
+}
+.dropdown {
+    position:sticky;
+    display: inline-block;
+}
+.content {
+    margin-top: 15px;
+    border: 1px solid;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+  }
+  .content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .content a:hover {text-decoration: underline; }
+
+.dropdown:hover .content {
+  display: block;
+}
+.list a {
+    color: gray;
+    font-size:12px;
+    margin-right: 20px;
+}
+.list a:hover {
+    color: black;
+}
+.box1 {
+    display:flex;
+}
+.box1 a {
+    text-decoration: none;
+    color: black;
+}
+.box1 img {
+    width: 300px;
+    height: 380px;
+    justify-content: space-around;
+}
+.box1 img {
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.bot {
+    border-top: 1px solid black;
+    text-align: center;
+    font-size: small;
+}
+.bot {
+    margin-bottom: 20px;
+}
+.bot span {
+    font-size:x-small;
+    color: gray;
+}
+.bot img {
+    margin-top:50px;
+}

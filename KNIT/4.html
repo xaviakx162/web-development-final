@@ -7,12 +7,105 @@
     <title>참스 CHARM'S</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="icon" href="./image/favicon.ico">
-    <link rel="stylesheet" href="./css/style.css">
-    
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+}
+.wellcome {
+    background-color: black;
+    height:15px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+
+}
+h6 a{
+    text-decoration: none;
+    color: white;
+
+}
+.menu{
+    display: flex;
+    font-size: small;
+    margin-top: 25px;
+    border-bottom: 1px solid black;
+    height: 50px;
+    position: fixed;
+    background-color: white;
+}
+
+.menu a {
+    margin-left:60px;
+    text-decoration: none;
+    color: black;
+
+}
+.menu a:hover {text-decoration: underline;}
+.main {
+    margin-top: 12px;
+}
+.mini {
+    margin-top: 12px;
+}
+.dropdown {
+    position:sticky;
+    display: inline-block;
+}
+.content {
+    margin-top: 20px;
+    border: 1px solid;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+  }
+  .content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .content a:hover {text-decoration: underline; }
+
+.dropdown:hover .content {
+  display: block;
+}
+.list a {
+    color: gray;
+    font-size:12px;
+    margin-right: 20px;
+}
+.list a:hover {
+    color: black;
+}
+
+.bot {
+    border-top: 1px solid black;
+    text-align: center;
+    font-size: small;
+}
+.bot {
+    margin-bottom: 20px;
+}
+.bot span {
+    font-size:x-small;
+    color: gray;
+}
+.bot img {
+    margin-top:50px;
+}
+.table {
+    margin-top: 120px;
+}
+
+
+    </style>
 </head>
 <body>
-    <div style="position: fixed;top: 0; bottom: 0; width:100%;height:100px;">
-        <h6 class="wellcome"> <a href="/HOME/index.html">WELLCOME TO CHARM'S</a> </h6>
+    <div style="position:fixed; width:100%; height:100px;">
+        <h6 class="wellcome"> <a href="">WELLCOME TO CHARM'S</a> </h6>
     </div>
     
     <div class="menu">
@@ -21,23 +114,23 @@
                 <div class="dropdown">
                 <a href="">SHOP</a>
                 <div style="font-size: x-small;" class="content">
-                    <a href="/HOME/SHOP/index.html">ALL</a>
-                    <a href="/HOME/SHOP/Sweatshirts.html">Sweatshirts</a>
-                    <a href="/HOME/SHOP/KNIT.html">KNIT</a>
-                    <a href="/HOME/SHOP/T-shirts.html">T-shirts</a>
-                    <a href="/HOME/SHOP/Outers.html">Outers</a>
-                    <a href="/HOME/SHOP/Bottoms.html">Bottoms</a>
-                    <a href="/HOME/SHOP/ACC.html">ACC</a>
-                    <a href="/HOME/SHOP/X VIVIZ.html">X VIVIZ</a>
-                    <a href="/HOME/SHOP/X BAMBAM.html">X BAMBAM</a>
-                    <a href="/HOME/SHOP/X PENTAGON.html">X PENTAGON</a> 
+                    <a href="chạy thử.html">ALL</a>
+                    <a href="">Sweatshirts</a>
+                    <a href="">KNIT</a>
+                    <a href="">T-shirts</a>
+                    <a href="">Outers</a>
+                    <a href="">Bottoms</a>
+                    <a href="">ACC</a>
+                    <a href="">X VIVIZ</a>
+                    <a href="">X BAMBAM</a>
+                    <a href="">X PENTAGON</a> 
                 </div>
                 </div>
 
-                <a style="margin-left: 40px;" href="/HOME/ABOUT US/index.html">ABOUT US</a>
-                <a style="margin-left: 40px;" href="/HOME/LOOKBOOK/index.html">LOOKBOOK</a>
-                <a style="margin-left: 40px;" href="/HOME/SNAPS/index.html">SNAPS</a>
-                <a style="margin-left: 40px;" href="/HOME/COMMUNITY/index.html">COMMUNITY</a>
+                <a style="margin-left: 40px;" href="">ABOUT US</a>
+                <a style="margin-left: 40px;" href="">LOOKBOOK</a>
+                <a style="margin-left: 40px;" href="">SNAPS</a>
+                <a style="margin-left: 40px;" href="">COMMUNITY</a>
             </div>
 
             <a style="margin-left: 60px" href="./image/index.html">
@@ -140,27 +233,50 @@
 <a href=""></a>
     </div>
 
+        <div style="display:flex; margin-left: 150px; border: 1px solid black; width: 600px;" >
+            <div>
+            <img style="width:600px;" src="https://charms.kr/web/product/small/202102/79693328af5cc82635685799d49c00bd.jpg" alt=""> <br>
+            <img style="width:600px;" src="https://charms.kr/21SS/CHARMS%20STRIPE%20LIP%20KNIT/BLACK/1.jpg" alt=""> <br>
+            <img style="width:600px;" src="https://charms.kr/21SS/CHARMS%20STRIPE%20LIP%20KNIT/BLACK/2.jpg" alt=""> <br>
+            <img style="width:600px;" src="https://charms.kr/21SS/CHARMS%20STRIPE%20LIP%20KNIT/BLACK/3.jpg" alt=""> <br>
+            <img style="width:600px;" src="https://charms.kr/21SS/CHARMS%20STRIPE%20LIP%20KNIT/BLACK/4.jpg" alt="">
+    
+            </div>
+
+            <div class="table" style=" margin-left: 100px;  ">
+                <div style="  height: 300px; margin-top: 100px; position: fixed;">
+                    <h5>CHARMS STRIPE LIP KNIT BK </h5> <br>
+                    <h5><del>79,000 won</del></h5> <br>
+                    <h5>27,600 won (51,400 won discount)</h5> <br>
+                    <select name="" id=""> 
+                        <option value="1">-Please select the [Required] option-</option>
+                        <option value="2">M</option>
+                        <option value="3">L</option>
+                    </select> <br> <br>
+                    <h5>TOTAL : 0 (0 items)</h5> <br>
+                    <input style="width: 100%; background-color:black; color:white;" type="button" onclick="alert('Mua thành công')" value="BUY IT NOW">
+                    <input style="width: 100%; color:black;" type="button" onclick="alert('Đã thêm vào giỏ hàng')" value="ADD TO CARD">
+            </div>
+                </div>
+            
+        </div>
+
+
+        <div class="bot">
+            <img src="./image/bot.jpg" alt=""> <br>
+            <h6 >CUSTOMER     <span>Charms Co., Ltd. forced02-794-6592 127-87-01402 2020-Seongdong-dong- 01209 [Business information confirmation] Room 708, Seongsu Station Hyundai Terrace Tower, 314-13 </span></h6>
+            <h6>CARE     <span>Seongsu-dong 2-ga, Seongdong-gu, Seoul 04782 © 참스. All rights reserved.</span> </h6>
+        </div>
+    
 
 
     
-    <img style="width:100%;" src="./image/image/main1.jpg" alt="">
-    <img style="width:100%; " src="./image/image/main2.jpg" alt="">
-    <img style="width:100%;" src="./image/image/main3.jpg" alt="">
-    <img style="width:100%;" src="./image/image/main4.jpg" alt="">
-    <img style="width:100%;" src="./image/image/main5.jpg" alt="">
-
-
-
-
-    <div class="bot">
-        <img src="./image/image/bot.jpg" alt=""> <br>
-        <h6 >CUSTOMER     <span>Charms Co., Ltd. forced02-794-6592 127-87-01402 2020-Seongdong-dong- 01209 [Business information confirmation] Room 708, Seongsu Station Hyundai Terrace Tower, 314-13 </span></h6>
-        <h6>CARE     <span>Seongsu-dong 2-ga, Seongdong-gu, Seoul 04782 © 참스. All rights reserved.</span> </h6>
-    </div>
-
-
-
-
-
 </body>
 </html>
+
+
+
+
+
+
+

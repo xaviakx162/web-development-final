@@ -2,28 +2,31 @@
     margin: 0;
     padding: 0;
 }
-h6 {
+.wellcome {
     background-color: black;
-
     height:15px;
     width: 100%;
     text-align: center;
     padding-top: 10px;
+
 }
 h6 a{
     text-decoration: none;
     color: white;
+
 }
 .menu{
     display: flex;
     font-size: small;
-    margin-top: 5px;
+    margin-top: 25px;
     border-bottom: 1px solid black;
     height: 50px;
-    
+    position: fixed;
+    background-color: white;
 }
 
 .menu a {
+    margin-top: 6px;
     margin-left:60px;
     text-decoration: none;
     color: black;
@@ -31,17 +34,17 @@ h6 a{
 }
 .menu a:hover {text-decoration: underline;}
 .main {
-    margin-top: 12px;
+    margin-top: 18px;
 }
 .mini {
-    margin-top: 12px;
+    margin-top: 18px;
 }
 .dropdown {
     position:sticky;
     display: inline-block;
 }
 .content {
-    margin-top: 20px;
+    margin-top: 15px;
     border: 1px solid;
     display: none;
     position: absolute;
@@ -60,3 +63,71 @@ h6 a{
 .dropdown:hover .content {
   display: block;
 }
+.list a {
+    color: gray;
+    font-size:12px;
+    margin-right: 20px;
+}
+.list a:hover {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+.bot {
+    border-top: 1px solid black;
+    text-align: center;
+    font-size: small;
+}
+.bot {
+    margin-bottom: 20px;
+}
+.bot span {
+    font-size:x-small;
+    color: gray;
+}
+.bot img {
+    margin-top:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+<p>Q&A</p>
+<table border="1" cellspacing="0" cellpadding="0">
+    <tr>
+        <th>NO</th>
+        <th>SUJECT</th>
+    </tr>
+
+    <tr>
+        <td>Notice</td>
+        <td>Thông tin trên bảng thông báo chỉ hoàn tiền và đặt cọc</td>
+    </tr>
+    <tr>
+        <td>Notice</td>
+        <td>Quay số CS</td>
+    </tr>
+    <tr>
+        <td>43700</td>
+        <td>yêu cầu giao hàng?</td>
+    </tr>
+    <tr>
+        <td>43690</td>
+        <td>Yêu cầu sản phẩm</td>
+    </tr>
+</table>
